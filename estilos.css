@@ -2,25 +2,66 @@ h2 {
   color: #fff;
   text-align: center;
 }
+ /* SKILL  */
 .skill {
   padding: 10px;
   background: #5151b4;
 }
+ /* SERVICIOS  */
 .servicios {
-  background: #ad58a9;
+  background: #fb7171;
   padding: 10px 30px;
 }
 h3 {
   color: #fff;
 }
+ /* PORTAFOLIO  */
 .portafolio {
   background: #ffd233;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
+/* CLIENTES  */
 .clientes {
-    background: #3F4E62;
-    display: flex;
-    flex-flow: row wrap;
+  background: #3f4e62;
+  display: flex;
+  flex-flow: row wrap;
+}
+/* CONTACTO  */
+.contacto {
+  background: #16a085;
+  padding: 30px;
+}
+/* FORMULARIO  */
+form {
+  width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+input {
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  flex: 1 1 auto;
+}
+textarea {
+  border-radius: 5px;
+  width: 80%;
+  padding: 5px;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 80%;
+}
+#boton {
+  width: 80%;
+  background: #233451;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
 }
