@@ -1,16 +1,21 @@
-
 h2 {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 .skill {
-    padding: 10px;
-    background: #5151b4;
+  padding: 10px;
+  background: #5151b4;
 }
 .servicios {
-    background: #ad58a9;
-    padding: 10px 30px ;
+  background: #ad58a9;
+  padding: 10px 30px;
 }
 h3 {
-    color: #fff;
+  color: #fff;
+}
+.portafolio {
+  background: #ffd233;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
