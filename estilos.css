@@ -7,29 +7,29 @@ h2 {
   padding: 10px;
   background: #5151b4;
 }
- /* SERVICIOS  */
-.servicios {
+ /* SERVICE  */
+.service {
   background: #fb7171;
   padding: 10px 30px;
 }
 h3 {
   color: #fff;
 }
- /* PORTAFOLIO  */
-.portafolio {
+ /* PORTFOLIO  */
+.portfolio {
   background: #ffd233;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-/* CLIENTES  */
-.clientes {
+/* CUSTOMERS  */
+.customers {
   background: #3f4e62;
   display: flex;
   flex-flow: row wrap;
 }
-/* CONTACTO  */
-.contacto {
+/* CONTACT  */
+.contact {
   background: #16a085;
   padding: 30px;
 }
