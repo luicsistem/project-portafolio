@@ -11,7 +11,7 @@ h2 {
   color: #233451;
 }
  /* SERVICE  */
-.service {
+.services {
   background: #fb7171;
   padding: 10px 30px;
 }
@@ -21,15 +21,15 @@ h3 {
  /* PORTFOLIO  */
 .portfolio {
   background: #ffd233;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
+  /* justify-content: center; */
 }
 /* CUSTOMERS  */
 .customers {
   background: #3f4e62;
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex;
+  flex-flow: row wrap; */
 }
 /* CONTACT  */
 .contact {
