@@ -39,7 +39,20 @@
     <meta name="twitter:site" content="@IngCastroBernal" />
     <meta name="twitter:creator" content="@IngCastroBernal" />
     <meta name="twitter:title" content="Portfolio - codiGO" />
+    <script>
+      window.twttr.widgets.createShareButton(
+  "https:\/\/dev.twitter.com\/web\/tweet-button",
+  document.getElementById("tweet-container"),
+  {
+    size: "large",
+    text: "custom share text",
+    hashtags: "example,demo",
+    via: "twitterdev",
+    related: "twitterapi,twitter"
+  }
+);
 
+    </script>
   </head>
   <body>
       <div id="fb-root"></div>
@@ -51,7 +64,18 @@
         <ul><li>
             <div class="fb-share-button" data-href="https://luicsistem.github.io/project-portafolio/" data-layout="button" data-size="large">
             <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fluicsistem.github.io%2Fproject-portafolio%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-        </li></ul>
+        </li>
+        <li><a class="twitter-share-button"
+          href="https://twitter.com/intent/tweet"
+          data-size="large"
+          data-text="custom share text"
+          data-url="https://dev.twitter.com/web/tweet-button"
+          data-hashtags="example,demo"
+          data-via="twitterdev"
+          data-related="twitterapi,twitter">
+        Tweet
+        </a></li>
+      </ul>
         <section class="banner" >
           <h1>codiGo</h1>
           <figure>
@@ -96,7 +120,7 @@
           </div>
         </section>
         <!--SERVICE-->
-        <section class="service">
+        <section class="services">
           <h2>Servicios</h2>
           <div>
             <img src="images/Vector.png" alt="check" />

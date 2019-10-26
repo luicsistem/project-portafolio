@@ -2,6 +2,9 @@ h2 {
   color: #fff;
   text-align: center;
 }
+ul li  {
+  list-style: none;
+}
  /* SKILL  */
 .skill {
   padding: 10px;
