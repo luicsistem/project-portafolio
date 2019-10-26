@@ -1,149 +1,190 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>portafolio</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <meta name="description"
+      content="Pagina web sobre portafolio de luis castro, creada en conjunto en el 
+    programa codiGO" />
+    <meta name="keywords"
+      content="web, programacion, portafolio, luiscastro, codiGO" />
+      <!--OpenGraph-->
+      <meta
+      property="og:title"
+      itemprop="headline"
+      content="Portfolio - codiGO"
+    />
+    <meta
+      property="og:description"
+      itemprop="description"
+      content="Pagina web sobre portafolio de luis castro , creada en conjunto en el 
+    programa codiGO"
+    />
+    <meta
+    property="og:image"
+    itemprop="image"
+    content="https://raw.githubusercontent.com/luicsistem/project-portafolio/master/images/image.png
+    "
+  />
+  <meta
+  property="og:url"
+  itemprop="url"
+  content="https://luicsistem.github.io/project-portafolio/"
+/>
+    <!--Twitter:Card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@IngCastroBernal" />
+    <meta name="twitter:creator" content="@IngCastroBernal" />
+    <meta name="twitter:title" content="Portfolio - codiGO" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Portafolio</title>
-  <link rel="stylesheet" href="estilos.css" />
-</head>
-<body>
-  <div class="wrapper">
-    <!--BANNERS-->
-    <section class="banner" >
-      <h1>codiGo</h1>
-      <figure>
-        <img src="./images/image.png" alt="banner" />
-      </figure>
-      <h2 id="hello">hola mi nombre es Luis Castro </h2>
-    </section>
-    <!-- SKILL -->
-    <section class="skill">
-      <h2>My skill</h2>
-      <div class="bar-title">
-        <h3>HTML</h3>
-        <progress value="70" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>Css</h3>
-        <progress value="50" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>Angular</h3>
-        <progress value="40" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>Figma</h3>
-        <progress value="60" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>JavaScript</h3>
-        <progress value="70" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>React</h3>
-        <progress value="30" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>Python</h3>
-        <progress value="60" max="100">70 %</progress>
-      </div>
-      <div class="bar-title">
-        <h3>Node.js</h3>
-        <progress value="30" max="100">70 %</progress>
-      </div>
-    </section>
-    <!--SERVICES-->
-    <section class="services">
-      <h2>Servicios</h2>
-      <div class="items">
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Diseño Web</h3>
-        </div>
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Diseño UI</h3>
-        </div>
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Desarrollo Web</h3>
-        </div>
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Diseño UX</h3>
-        </div>
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Desarrollo Mobile</h3>
-        </div>
-        <div class="item">
-          <img src="images/Vector.png" alt="icon-check" />
-          <h3>Metodologias Agiles</h3>
-        </div>
-      </div>
-    </section>
-    <!--PORTFOLIO-->
-    <section class="portfolio">
-      <h2>Portafolio</h2>
-      <div class="items">
-        <figure>
-          <img src="./images/image1.png" width="140" height="92" alt="one" />
-        </figure>
-        <figure>
-          <img src="./images/image2.png" width="140" height="92" alt="two" />
-        </figure>
-        <figure>
-          <img src="./images/image3.png" width="140" height="92" alt="three" />
-        </figure>
-        <figure>
-          <img src="./images/image4.png" width="140" height="92" alt="four" />
-        </figure>
-        <figure>
-          <img src="./images/image5.png" width="140" height="92" alt="five"" />
+  </head>
+  <body>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
+    <div>
+     
+      <main>
+        <!-- BANNERS -->
+        <ul><li>
+            <div class="fb-share-button" data-href="https://luicsistem.github.io/project-portafolio/" data-layout="button" data-size="large">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fluicsistem.github.io%2Fproject-portafolio%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+        </li></ul>
+        <section class="banner" >
+          <h1>codiGo</h1>
+          <figure>
+            <img src="./images/image.png" alt="banner" width="960"  height="525" />
+          </figure>
+          <h2 id="hello">hola mi nombre es Luis Castro </h2>
+        </section>
+        <!-- SKILL -->
+        <section class="skill">
+          <h2>My skill</h2>
+          <div>
+            <h3>HTML</h3>
+            <progress value="70" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>Css</h3>
+            <progress value="50" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>Angular</h3>
+            <progress value="40" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>Figma</h3>
+            <progress value="60" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>JavaScript</h3>
+            <progress value="70" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>React</h3>
+            <progress value="30" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>Python</h3>
+            <progress value="60" max="100">70 %</progress>
+          </div>
+          <div>
+            <h3>Node.js</h3>
+            <progress value="30" max="100">70 %</progress>
+          </div>
+        </section>
+        <!--SERVICE-->
+        <section class="service">
+          <h2>Servicios</h2>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Diseño Web</h3>
+          </div>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Diseño UI</h3>
+          </div>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Desarrollo Web</h3>
+          </div>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Diseño UX</h3>
+          </div>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Desarrollo Mobile</h3>
+          </div>
+          <div>
+            <img src="images/Vector.png" alt="check" />
+            <h3>Metodologias Agiles</h3>
+          </div>
+        </section>
+        <!--PORTFOLIO-->
+        <section class="portfolio">
+          <h2>Portafolio</h2>
+
+          <figure>
+            <img src="./images/image1.png" alt="" />
           </figure>
           <figure>
-            <img src=" ./images/image6.png" width="140" height="92" alt="six"" />
+            <img src="./images/image2.png" alt="" />
           </figure>
           <figure>
-            <img src=" ./images/image7.png" width="140" height="92" alt="seven" />
-        </figure>
-        <figure>
-          <img src="./images/image8.png" width="140" height="92" alt="eight" />
-        </figure>
-      </div>
-    </section>
-    <!--CUSTOMERS-->
-    <section class="customers">
-      <h2>Clientes</h2>
-      <div class="items">
-        <figure>
-          <img src="./images/clie1.png" alt="ferme" />
-        </figure>
-        <figure>
-          <img src="./images/clie2.png" alt="domatics" />
-        </figure>
-        <figure>
-          <img src="./images/clie3.png" alt="fermeria" />
-        </figure>
-        <figure>
-          <img src="./images/clie4.png" alt="alliance" />
-        </figure>
-      </div>
-    </section>
-    <!--CONTACT-->
-    <section class="contact">
-      <h2>Contact</h2>
-      <form action="#" class="form">
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="LastName">
-        <input type="email" placeholder="Email">
-        <input type="tel" placeholder="Phone">
-        <textarea cols="30" rows="10" placeholder="Descripcion"></textarea>
-        <button type="submit" id="boton">Enviar</button>
-      </form>
-    </section>
-  </div>
-</body>
+            <img src="./images/image3.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image1.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image4.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image5.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image6.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image7.png" alt="" />
+          </figure>
+          <figure>
+            <img src="./images/image8.png" alt="" />
+          </figure>
+        </section>
+        <!--CUSTOMERS-->
+        <section class="customers">
+          <h2>Clientes</h2>
+          <figure>
+            <img src="./images/clie1.png" alt="ferme" />
+          </figure>
+
+          <figure>
+            <img src="./images/clie2.png" alt="domatics" />
+          </figure>
+          <figure>
+            <img src="./images/clie3.png" alt="fermeria" />
+          </figure>
+          <figure>
+            <img src="./images/clie4.png" alt="alliance" />
+          </figure>
+        </section>
+        <!--CONTACT-->
+        <section class="contact">
+          <h2>Contact</h2>
+          <form action="#">
+            <input type="text" placeholder="Name" >
+            <input type="text" placeholder="LastName" >
+            <input type="email"  id="" placeholder="Email" >
+            <input type="tel"  id="" placeholder="Phone" >
+            <textarea  cols="30" rows="10"></textarea>
+            <button  type="submit" id="boton" >Enviar</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
