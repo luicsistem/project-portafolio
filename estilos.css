@@ -1,3 +1,9 @@
+/* GLOBALES */
+L* {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   color: #fff;
   text-align: center;
@@ -6,14 +12,59 @@ h2 {
 ul li  {
   list-style: none;
 }
+
+/* BANNER */
+.sociales {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 1;
+  /* display: inline; */
+  
+}
+.sociales ul li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+
+}
+.banner {
+  position: relative;
+  
+}
+.banner h1 {
+  position: absolute;
+  color: #fff;
+  left: 45%;
+  top: 5%;
+  font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+
+
+}
+.banner h2 {
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  left: 25%;
+  /* display: inline-block; */
+  background: rgba(114, 153, 254, 0.5);
+  padding: 10px;
+  font-size: 30px;
+}
+.banner img {
+  width: 100%;
+}
+
+
+
  /* SKILL  */
 .skill {
   padding: 10px;
   background: #5151b4;
 }
-#hello {
-  color: #233451;
-}
+
  /* SERVICE  */
 .services {
   background: #fb7171;
