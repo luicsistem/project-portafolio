@@ -4,6 +4,9 @@ L* {
   margin: 0;
   padding: 0;
 }
+.wrapper {
+  overflow: hidden;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -68,11 +71,26 @@ line-height: 75px;
   padding: 10px;
   background: #5151b4;
 }
+.skill_courses {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* width: 100%; */
+  justify-items: center;
+}
+.skill_item {
+  width: 50%;
+  /* margin: auto; */
+}
 
  /* SERVICE  */
 .services {
   background: #fb7171;
   padding: 10px 30px;
+  text-align: center;
+}
+.items {
+  display: flex;
 }
 h3 {
   color: #fff;
