@@ -1,26 +1,32 @@
 
 /* GLOBALES */
 L* {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 .wrapper {
   overflow: hidden;
 }
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-h2 {
   color: #fff;
+}
+h1,
+h2 {
+  font-weight: bold;
   text-align: center;
+}
+h1 {
+  font-size: 64px;
+}
+h2 {
+  font-size: 36px;
 }
 
 ul li  {
   list-style: none;
 }
 
-/* BANNER */
+/* SOCIALES */
 .sociales {
   position: absolute;
   top: 20px;
@@ -33,115 +39,169 @@ ul li  {
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
-
 }
+/* BANNER */
 .banner {
   position: relative;
   
 }
 .banner h1 {
   position: absolute;
-  color: #fff;
   left: 45%;
   top: 5%;
-  font-weight: bold;
-font-size: 64px;
-line-height: 75px;
+   line-height: 75px;
 
 
 }
 .banner h2 {
-  color: #fff;
   position: absolute;
-  bottom: 60px;
+  bottom: 150px;
   left: 25%;
   /* display: inline-block; */
   background: rgba(114, 153, 254, 0.5);
-  padding: 10px;
-  font-size: 30px;
+  padding: 15px;
 }
 .banner img {
   width: 100%;
+ 
 }
-
-
 
  /* SKILL  */
 .skill {
-  padding: 10px;
+  padding: 30px;
   background: #5151b4;
+}
+.skill h2 {
+  margin-bottom: 20px;
 }
 .skill_courses {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* width: 100%; */
+  width: 100%;
   justify-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: auto;
 }
 .skill_item {
   width: 50%;
-  /* margin: auto; */
+  margin: 10px 0;
+}
+ .skill_item progress {
+  width: 50%;  
+ 
 }
 
+.skill_item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 50%;
+
+}
  /* SERVICE  */
 .services {
   background: #fb7171;
   padding: 10px 30px;
   text-align: center;
+  padding: 30px;
 }
-.items {
+.services h2 {
+  margin-bottom: 40px;
+}
+.services img {
+   margin: 20px;
+}
+.services_container {
   display: flex;
+  flex-wrap: wrap;
+  }
+.services_item {
+  width: 33.33%;
+  margin-bottom: 50px;
 }
-h3 {
-  color: #fff;
+
+.services h3 {
+  font-size: 24px;
 }
  /* PORTFOLIO  */
 .portfolio {
   background: #ffd233;
-  /* display: flex; */
-  /* flex-flow: row wrap; */
-  /* justify-content: center; */
+  padding: 10px 30px 60px;
+
+}
+.portfolio h2{
+  margin-bottom: 40px;
+  padding-top: 40px;;
+
+}
+.portfolio_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+.portfolio_item {
+  width: 25%;
+  margin-bottom: 20px;
 }
 /* CUSTOMERS  */
 .customers {
   background: #3f4e62;
-  /* display: flex;
-  flex-flow: row wrap; */
+  padding: 30px 70px 60px;
+
+}
+
+.customers h2 {
+  margin-bottom: 20px;
+}
+.customer_container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.customer_container figure {
+  margin: auto;
 }
 /* CONTACT  */
 .contact {
   background: #16a085;
   padding: 30px;
 }
-/* FORMULARIO  */
-form {
-  width: 600px;
-  margin: auto;
-  box-sizing: border-box;
-  padding: 10px;
+.contact h2 {
+  margin-bottom: 30px;
 }
-input {
-  width: 40%;
-  margin-bottom: 15px;
-  padding: 5px;
+.contact .form {
+  padding: 0 100px;
+}
+.contact .row {
+  display: flex;
+  margin: 0 0 20px;
+  justify-content: center;
+  
+}
+.contact .ctrl {
+  padding: 20px 10px;
+  width: 100%;
   border-radius: 5px;
-  flex: 1 1 auto;
+ 
 }
-textarea {
+.contact .col {
+  width: 100%;
+  padding: 0 10px;
+  
+}
+.contact textarea {
   border-radius: 5px;
   width: 80%;
   padding: 5px;
   min-height: 100px;
   max-height: 200px;
-  max-width: 80%;
+  max-width: 100%;
+  min-width: 50%;
 }
-#boton {
-  width: 80%;
+.contact button {
+  width: 100%;
   background: #233451;
-  color: #ffffff;
-  margin-top: 20px;
-}
-
-#boton:hover {
+  color: #fff;
+  padding: 10px;
   cursor: pointer;
 }
