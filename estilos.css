@@ -1,4 +1,3 @@
-
 /* GLOBALES */
 * {
   box-sizing: border-box;
@@ -42,10 +41,8 @@ ul li  {
 .sociales {
   position: absolute;
   top: 20px;
-  right: 150px;
-  z-index: 1;
-  /* display: inline; */
-  
+  right: 18%;
+  z-index: 1; 
 }
 
 .sociales ul li {
@@ -62,23 +59,22 @@ ul li  {
 
 .banner h1 {
   position: absolute;
-  left: 45%;
-  top: 5%;
-   line-height: 75px;
+  left: 40%;
+  top: 12%;
+   text-align: center;
 }
 
 .banner h2 {
   position: absolute;
-  bottom: 150px;
-  left: 25%;
-  /* display: inline-block; */
+  padding: 18px;
+  bottom: 140px;
+  left: 13%;
   background: rgba(114, 153, 254, 0.5);
-  padding: 15px;
 }
 
 .banner img {
-  width: 100%;
   display: block;
+  width: 100%;
  }
 
  /* SKILL  */
@@ -94,10 +90,9 @@ ul li  {
 .skill_courses {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-items: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  width: 100%;
+  padding: 0 70px 30px;
   margin: auto;
 }
 
@@ -120,31 +115,31 @@ ul li  {
 }
 
 .skill_item h3 {
-  font-size: 18px;
   margin-bottom: 10px;
-  width: 50%;
+  font-size: 18px;
 }
 
  /* SERVICE  */
 .services {
-  background: #fb7171;
-  padding: 10px 30px;
-  text-align: center;
   padding: 30px;
+  text-align: center;
+  background: #fb7171;
 }
 
 .services h2 {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .services img {
    margin: 20px;
+  
 }
 
 .services_container {
   display: flex;
   flex-wrap: wrap;
   }
+
 .services_item {
   width: 33.33%;
   margin-bottom: 50px;
@@ -156,20 +151,19 @@ ul li  {
 
  /* PORTFOLIO  */
 .portfolio {
+  padding: 30px ;
   background: #ffd233;
-  padding: 10px 30px 60px;
 
 }
 
 .portfolio h2{
-  margin-bottom: 40px;
-  padding-top: 40px;;
-
+  margin-bottom: 50px;
 }
 
 .portfolio_container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0 100px;
 }
 
@@ -180,8 +174,8 @@ ul li  {
 
 /* CUSTOMERS  */
 .customers {
+  padding: 30px 30px 60px;
   background: #3f4e62;
-  padding: 30px 70px 60px;
 }
 
 .customers h2 {
@@ -191,6 +185,7 @@ ul li  {
 .customer_container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -233,10 +228,6 @@ ul li  {
   border-radius: 5px;
   width: 80%;
   padding: 5px;
-  /* min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-  min-width: 50%; */
   resize: none;
 }
 
